@@ -133,7 +133,7 @@ void ClearScreen() {
  * 室温表示
  */
 void displayTemperature(const float &temperature) {
-    displayItemName("temperature");
+    displayItemName("Temperature");
     displayLineSpacing();
     displayValueTemperature(temperature);
 }
@@ -142,7 +142,7 @@ void displayTemperature(const float &temperature) {
  * 湿度表示
  */
 void displayHumidity(const int &humidity) {
-    displayItemName("humidity");
+    displayItemName("Humidity");
     displayLineSpacing();
     displayValueHumidity(humidity);
 }
